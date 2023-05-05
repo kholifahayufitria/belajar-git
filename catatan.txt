@@ -1,15 +1,16 @@
-
-stage 
+STAGE 
     hijau + u = untracked
     hijau + a = added(baru ditambahkan)
     kuning + m = modified(dirubah)
     putih = selesai
 
-awal 
+
+AWAL
      git init nama_project/folder
      git init .
 
-lanjutannya
+
+LANJUTANNYA
     menambahkan file ke unstagged
         git add nama_file
         git add.
@@ -17,4 +18,9 @@ lanjutannya
     commit file  
         git commit -m "keterangan commit"
 
-    
+    check commit
+        git log
+        git log --oneline
+
+    cancel perubahan
+        git checkout nama_file
